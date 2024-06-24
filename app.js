@@ -17,3 +17,9 @@ function somaDoisN() {
     let soma = n1 + n2;
     alert(`A soma de ${n1} e ${n2} é = ` + soma);
 }
+
+function doubleNumber() {
+    let dn = parseInt(prompt('Digite um numero para duplicar: ')); 
+    let duplicate = dn * 2;
+    alert(`O numero ${dn} x 2 é = ${duplicate}`);
+}
